@@ -4,6 +4,12 @@ php:
   - 5.3
   - 5.4
 
-before_script:
-    - composer install --dev
+#Without before_script Travis will not find dependencies
+#before_script:
+#    - composer install --dev
+#
 
+
+#before_script:
+#    - composer install --dev
+#
