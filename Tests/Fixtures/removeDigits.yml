@@ -1,0 +1,3 @@
+- { source: "abc", result: "abc"}
+- { source: "a1b2c", result: "abc"}
+- { source: "123456", result: ""}

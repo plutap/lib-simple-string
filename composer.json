@@ -1,0 +1,21 @@
+{
+    "name": "tdd-php/lib-simple-string",
+    "type": "library",
+    "description": "Example string operations",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Włodzimierz Gajda",
+            "email": "gajdaw@gajdaw.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/yaml": "2.2.*"
+    },
+    "autoload": {
+        "psr-0": { "Gajdaw\\TddExamples\\SimpleString": "" }
+    },
+    "target-dir": "Gajdaw/TddExamples/SimpleString"
+}
