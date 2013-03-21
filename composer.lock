@@ -1,6 +1,9 @@
 {
-    "hash": "5b0d3672f1af26acf9375eb97aeca76c",
+    "hash": "0af8f409399f47b337b82e0274a955a9",
     "packages": [
+
+    ],
+    "packages-dev": [
         {
             "name": "symfony/yaml",
             "version": "v2.2.0",
@@ -48,9 +51,6 @@
             "homepage": "http://symfony.com",
             "time": "2013-01-27 16:49:19"
         }
-    ],
-    "packages-dev": [
-
     ],
     "aliases": [
 

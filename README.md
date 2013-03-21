@@ -21,8 +21,14 @@ How to generate tests?
 How to run tests?
 -----------------
 
-    phpunit
-    phpunit  --coverage-html coverage/
+    First, install dependencies:
+
+        composer install --dev
+
+    Next, run:
+
+        phpunit
+        phpunit  --coverage-html coverage/
 
 
 How to generate zipped archive?
