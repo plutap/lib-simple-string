@@ -9,7 +9,7 @@ php:
 #    - composer install --dev
 #
 
+#Without --dev composer will not install development dependencies
+before_script:
+    - composer install
 
-#before_script:
-#    - composer install --dev
-#
