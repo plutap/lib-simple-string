@@ -150,4 +150,21 @@ class SimpleString
         return preg_replace('/[A,a]/', '@', $string);
     }
 
+    /**
+     * Uncomment
+     *
+     * @param string $string String to process
+     *
+     * @todo Implement uncomment().
+     *
+     * @return string String without comments.
+     */
+    public static function uncomment($string)
+    {
+        //
+        // some comments...
+        //
+        throw new \RuntimeException('Not implemented');
+    }
+
 }
