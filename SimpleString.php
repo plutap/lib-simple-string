@@ -131,6 +131,7 @@ class SimpleString
     public static function replaceA($string)
     {
         return preg_replace('/[A,a]/', '@', $string);
+        //komentarz 1
     }
 
 }
