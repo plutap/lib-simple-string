@@ -53,6 +53,17 @@ class SimpleString
     {
         return preg_replace('/[0-9]/', '', $string);
     }
+    /**
+     * Return replace in string a to hello
+     *
+     * @param string $string String to process
+     *
+     * @return string String without digits
+     */
+    public static function replaceAToHello($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
 
     /**
      * Adding string to text
