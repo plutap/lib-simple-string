@@ -55,6 +55,20 @@ class SimpleString
     }
 
     /**
+     * Returns string from behind
+     *
+     * @param string $string String to process
+     *
+     * @todo Implement wordBehind().
+     *
+     * @return string String from behind
+     */
+    public static function wordBehind($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
+     /**
      * Returns string padded with dots
      *
      * @param string $string String to process
