@@ -13,6 +13,9 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
 
+    public function testTrollo() {
+        $this->markTestIncomplete('This test has not been implemented yet');
+    }
     /**
      * @dataProvider getRemoveDigitsData
      *
@@ -32,18 +35,33 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
 
-    public function testAddString()
+    /**
+     * @dataProvider getAddString
+     */
+
+    public function testAddString($result, $s1, $s2)
     {
-        $this->markTestIncomplete('This test has not been implemented yet.');
+        $this->assertEquals($result, SimpleString::addString($s1, $s2));
     }
-    public function removea()
+    public function getAddString()
     {
-        $this->markTestIncomplete('This test has not been implemented yet.');
+        return array(
+            array('Ala', 'A','la'),
+        );
+    }
+
+
+    public function testRemoveA()
+    {
+        $this->assertEquals('adam', SimpleString::removea('dm'));
+        //nie działa :P
+        //no nie i koniec!
     }
 
     public function testWordBehind()
     {
-        $this->markTestIncomplete('This test has not been implemented yet.');
+        $this->assertEquals('tset', SimpleString::wordBehind('test'));
+        $this->assertEquals('aicbab', SimpleString::wordBehind('babcia'));
     }
 
     public function testReplaceA()
@@ -54,6 +72,11 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
 
 
     public function testPadWithDots()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    public function testUncomment()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }

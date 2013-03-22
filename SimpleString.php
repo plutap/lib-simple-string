@@ -66,31 +66,44 @@ class SimpleString
     }
 
     /**
-     * Adding string to text
+     * Returns Trollo 
      *
-     * @param string $string String to add
+     * @param string $string String to process
      *
-     * @todo Implement addString().
-     *
-     * @return string String with new word
+     * @return string String with trollo
      */
-    public static function addString($string)
+    public static function trollo($string)
     {
         throw new \RuntimeException('Not implemented');
     }
 
-    /*
+     /**
+     * Adding string to text
+     *
+     * @param string $string1 String to add
+     * @param string $string2 String to add
+     *
+     * @todo Implement addString().
+     *
+     * @return string String with two old strings
+     */
+    public static function addString($string1,$string2)
+    {
+        // This function connect two string into one
+        return $string1 . $string2;
+    }
+
+    /**
      * Returns string without "a" letters
      *
      * @param string $string String to process
      *
-     * @todo Implement removea().
-     *
      * @return string String without "a" letters
      */
-    public static function removea($string)
+    public static function removeA($string)
     {
-        throw new \RuntimeException('Not implemented');
+        return preg_replace('a', '', $string);
+        //do zrobienia: poprawki
     }
 
     /**
@@ -104,7 +117,12 @@ class SimpleString
      */
     public static function wordBehind($string)
     {
-        throw new \RuntimeException('Not implemented');
+        $result = '';
+        for($int = strlen($string) - 1; $int >= 0; $int--)
+        {
+            $result .= $string[$int];
+        }
+        return $result;
     }
 
      /**
@@ -131,6 +149,28 @@ class SimpleString
     public static function replaceA($string)
     {
         return preg_replace('/[A,a]/', '@', $string);
+        //komentarz 1
+        //komentarz 2
+        //komentarz 3
+        //komentarz 4
+        //komentarz 5
+    }
+
+    /**
+     * Uncomment
+     *
+     * @param string $string String to process
+     *
+     * @todo Implement uncomment().
+     *
+     * @return string String without comments.
+     */
+    public static function uncomment($string)
+    {
+        //
+        // some comments...
+        //
+        throw new \RuntimeException('Not implemented');
     }
 
      public static function funkcja()
