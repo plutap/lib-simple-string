@@ -54,4 +54,18 @@ class SimpleString
         return preg_replace('/[0-9]/', '', $string);
     }
 
+    /**
+     * Returns string without "a" letters
+     *
+     * @param string $string String to process
+     *
+     * @todo Implement removea().
+     *
+     * @return string String without "a" letters
+     */
+    public static function removea($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
 }
