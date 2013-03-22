@@ -28,5 +28,8 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
             file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'Fixtures' . DIRECTORY_SEPARATOR . 'removeDigits.yml')
         );
     }
+    public function testReplaceATOHello(){
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
 
 }
