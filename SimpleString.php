@@ -59,11 +59,9 @@ class SimpleString
      *
      * @param string $string String to process
      *
-     * @todo Implement removea().
-     *
      * @return string String without "a" letters
      */
-    public static function removea($string)
+    public static function removeA($string)
     {
         return preg_replace('a', '', $string);
     }
