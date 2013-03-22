@@ -54,4 +54,21 @@ class SimpleString
         return preg_replace('/[0-9]/', '', $string);
     }
 
+    /**
+     * Returns string from behind
+     *
+     * @param string $string String to process
+     *
+     * @return string String from behind
+     */
+    public static function wordBehind($string)
+    {
+        throw new \RuntimeException('Not implemented');
+        /**
+        $result = "";
+        for ($i = $string.ob_get_length(); $i > 0; $i++) {
+            $result +=
+        }**/
+    }
+
 }
