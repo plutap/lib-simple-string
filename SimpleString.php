@@ -65,7 +65,7 @@ class SimpleString
      */
     public static function removea($string)
     {
-        throw new \RuntimeException('Not implemented');
+        return preg_replace('a', '', $string);
     }
 
 
