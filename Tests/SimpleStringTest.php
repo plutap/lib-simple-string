@@ -43,7 +43,8 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
 
     public function testWordBehind()
     {
-        $this->markTestIncomplete('This test has not been implemented yet.');
+        $this->assertEquals('tset', SimpleString::wordBehind('test'));
+        $this->assertEquals('aicbab', SimpleString::wordBehind('babcia'));
     }
 
     public function testReplaceA()

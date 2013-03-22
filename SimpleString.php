@@ -104,7 +104,12 @@ class SimpleString
      */
     public static function wordBehind($string)
     {
-        throw new \RuntimeException('Not implemented');
+        $result = '';
+        for($int = strlen($string) - 1; $int >= 0; $int--)
+        {
+            $result .= $string[$int];
+        }
+        return $result;
     }
 
      /**
