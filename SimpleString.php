@@ -61,8 +61,77 @@ class SimpleString
      *
      * @return string String with trollo
      */
-    public static function trollo($string) {
+    public static function trollo($string)
+    {
         throw new \RuntimeException('Not implemented');
+    }
+
+     /**
+     * Adding string to text
+     *
+     * @param string $string String to add
+     *
+     * @todo Implement addString().
+     *
+     * @return string String with new word
+     */
+    public static function addString($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
+    /**
+     * Returns string without "a" letters
+     *
+     * @param string $string String to process
+     *
+     * @todo Implement removea().
+     *
+     * @return string String without "a" letters
+     */
+    public static function removea($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
+    /**
+     * Returns string from behind
+     *
+     * @param string $string String to process
+     *
+     * @todo Implement wordBehind().
+     *
+     * @return string String from behind
+     */
+    public static function wordBehind($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
+     /**
+     * Returns string padded with dots
+     *
+     * @param string $string String to process
+     *
+     * @todo Implement padWithDots().
+     *
+     * @return string String padded with dots
+     */
+    public static function padWithDots($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
+    /**
+     * Returns string without digits
+     *
+     * @param string $string String to process
+     *
+     * @return string String with @
+     */
+    public static function replaceA($string)
+    {
+        throw new \RuntimeException('Not implemented!');
     }
 
 }
