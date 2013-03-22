@@ -29,8 +29,35 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         );
     }
 
-    public function testwordBehind()
+    /**
+     * @dataProvider getWordBehind
+     *
+     */
+    public function testWordBehind()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    public function getWordBehind()
+    {
+        return Yaml::parse(
+            file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'Fixtures' . DIRECTORY_SEPARATOR . 'wordBehind.yml')
+        );
+    }
+
+    /**
+     * @dataProvider getRemoveDigitsData
+     *
+     */
+    public function testReplaceA($string, $result)
+    {
+        $this->assertEquals($result, SimpleString::removeDigits($string));
+    }
+
+    public function getReplaceA()
+    {
+        return Yaml::parse(
+            file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'Fixtures' . DIRECTORY_SEPARATOR . 'removeDigits.yml')
+        );
     }
 }

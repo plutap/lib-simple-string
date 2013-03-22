@@ -59,16 +59,30 @@ class SimpleString
      *
      * @param string $string String to process
      *
+     * @todo Implement wordBehind().
+     *
      * @return string String from behind
      */
     public static function wordBehind($string)
     {
         throw new \RuntimeException('Not implemented');
-        /**
-        $result = "";
-        for ($i = $string.ob_get_length(); $i > 0; $i++) {
-            $result +=
-        }**/
+
+        //$result = "";
+        //for ($i = $string.ob_get_length(); $i > 0; $i++) {
+        //    $result +=
+        //}**/
+    }
+
+     /**
+     * Returns string without digits
+     *
+     * @param string $string String to process
+     *
+     * @return string String with @
+     */
+    public static function replaceA($string)
+    {
+        throw new \RuntimeException('Not implemented!');
     }
 
 }
