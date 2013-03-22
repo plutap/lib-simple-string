@@ -31,11 +31,11 @@ class SimpleString
     /**
      * Returns string with \n converted to <br/>\n
      *
-     * @param string $string String to process
+     * @ param string $string String to process
      *
-     * @todo Implement nl2br().
+     * @ todo Implement nl2br().
      *
-     * @return string String with \n converted to <br/>\n
+     * @ return string String with \n converted to <br/>\n
      */
     public static function nl2br($string)
     {
