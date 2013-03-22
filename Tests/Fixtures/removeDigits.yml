@@ -3,3 +3,6 @@
 - { source: "koniec 1000", result: "koniec"}
 
 
+
+- { source: "af", result: "afff"}
+
