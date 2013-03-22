@@ -31,11 +31,11 @@ class SimpleString
     /**
      * Returns string with \n converted to <br/>\n
      *
-     * @ param string $string String to process
+     * @param string $string String to process
      *
-     * @ todo Implement nl2br().
+     * @todo Implement nl2br().
      *
-     * @ return string String with \n converted to <br/>\n
+     * @return string String with \n converted to <br/>\n
      */
     public static function nl2br($string)
     {
@@ -53,6 +53,13 @@ class SimpleString
     {
         return preg_replace('/[0-9]/', '', $string);
     }
+    /**
+     * Return replace in string a to hello
+     *
+     * @param string $string String to process
+     *
+     * @return string String without digits
+     */
     public static function replaceAToHello($string){
         throw new \RuntimeException('Not implemented');
     }
