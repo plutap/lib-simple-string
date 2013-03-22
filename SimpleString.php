@@ -122,4 +122,8 @@ class SimpleString
         throw new \RuntimeException('Not implemented!');
     }
 
+     public static function funkcja()
+     {
+         throw new \RuntimeException('Brak ciala funkcji');
+     }
 }
