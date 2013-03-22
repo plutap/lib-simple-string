@@ -130,7 +130,7 @@ class SimpleString
      */
     public static function replaceA($string)
     {
-        throw new \RuntimeException('Not implemented!');
+        return preg_replace('/[A,a]/', '@', $string);
     }
 
 }

@@ -48,8 +48,11 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
 
     public function testReplaceA()
     {
-        $this->markTestIncomplete('This test has not been implemented yet.');
+        $this->assertEquals("@l@", SimpleString::replaceA("Ala"));
+        $this->assertEquals("Ol@", SimpleString::replaceA("Ola"));
     }
+
+
     public function testPadWithDots()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
