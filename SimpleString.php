@@ -64,6 +64,7 @@ class SimpleString
     public static function removeA($string)
     {
         return preg_replace('a', '', $string);
+        //do zrobienia: poprawki
     }
 
 
