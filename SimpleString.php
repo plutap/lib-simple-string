@@ -130,7 +130,7 @@ class SimpleString
      */
     public static function replaceA($string)
     {
-        return preg_replace('/[0-9]/', '', $string);
+        return preg_replace('A', '', $string);
     }
 
 }
