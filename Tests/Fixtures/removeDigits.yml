@@ -3,6 +3,8 @@
 - { source: "simple", result: "sim"}
 - { source: "eloelo320", result: "eloelo"}
 - { source: "eloeloelo350", result: "eloeloelo"}
+- { source: "alamapsa8a1b2c", result: "alamapsa8"}
+- { source: "asfd", result: "asfd"}
 - { source: "123456", result: ""}
 - { source: "eloeloedadlo350", result: "eloadeloelo"}
 - { source: "12345ad6", result: "fa"}
