@@ -29,4 +29,9 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    public function testPadWithDots()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
 }
