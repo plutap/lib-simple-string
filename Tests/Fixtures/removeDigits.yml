@@ -8,3 +8,5 @@
 - { source: "12x", result: "12"}
 - { source: "a3b", result: "ab"}
 - { source: "123456", result: ""}
+- { source: "eloeloedadlo350", result: "eloadeloelo"}
+- { source: "12345ad6", result: "fa"}
