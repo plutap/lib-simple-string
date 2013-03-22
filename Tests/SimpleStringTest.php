@@ -34,6 +34,7 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
     public function testRemoveA()
     {
         $this->assertEquals('adam', SimpleString::removea('dm'));
+        //nie działa :P
     }
 
     public function testWordBehind()
