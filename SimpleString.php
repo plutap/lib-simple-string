@@ -74,7 +74,7 @@ class SimpleString
      *
      * @return string String with new word
      */
-    public static function addString($string)
+    public static function addString($string1,$string2)
     {
         throw new \RuntimeException('Not implemented');
     }
