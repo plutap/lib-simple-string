@@ -66,6 +66,18 @@ class SimpleString
     }
 
     /**
+     * Returns Trollo 
+     *
+     * @param string $string String to process
+     *
+     * @return string String with trollo
+     */
+    public static function trollo($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
+     /**
      * Adding string to text
      *
      * @param string $string String to add
@@ -79,7 +91,7 @@ class SimpleString
         throw new \RuntimeException('Not implemented');
     }
 
-    /*
+    /**
      * Returns string without "a" letters
      *
      * @param string $string String to process
