@@ -80,15 +80,17 @@ class SimpleString
      /**
      * Adding string to text
      *
-     * @param string $string String to add
+     * @param string $string1 String to add
+     * @param string $string2 String to add
      *
      * @todo Implement addString().
      *
-     * @return string String with new word
+     * @return string String with two old strings
      */
-    public static function addString($string)
+    public static function addString($string1,$string2)
     {
-        throw new \RuntimeException('Not implemented');
+        // This function connect two string into one
+        return $string1 . $string2;
     }
 
     /**
