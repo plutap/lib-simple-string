@@ -54,4 +54,16 @@ class SimpleString
         return preg_replace('/[0-9]/', '', $string);
     }
 
+    /**
+     * Returns string without digits
+     *
+     * @param string $string String to process
+     *
+     * @return string String with @
+     */
+    public static function replaceA($string)
+    {
+        throw new \RuntimeException('Not implemented!');
+    }
+
 }
