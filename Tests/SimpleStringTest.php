@@ -13,7 +13,13 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
 
-    public function testTrollo() {
+    public function testStringBarcelona() 
+    {
+        $this->markTestIncomplete('This test has not been implemented yet');
+    }
+    
+    public function testTrollo() 
+    {
         $this->markTestIncomplete('This test has not been implemented yet');
     }
     /**
