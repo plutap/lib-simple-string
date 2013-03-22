@@ -53,5 +53,8 @@ class SimpleString
     {
         return preg_replace('/[0-9]/', '', $string);
     }
+    public static function replaceAToHello($string){
+        return str_replace("a", "Hello", $string);
+    }
 
 }
