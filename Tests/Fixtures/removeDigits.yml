@@ -1,12 +1,9 @@
+- { source: "koniec 1000", result: "koniec"}
+- { source: "LubiePlacki", result: "BardzoLubiePlacki"}
+
+- { source: "dddd222", result: "dddd"}
+
+
+- { source: "af", result: "afff"}
+
 - { source: "abc", result: "abc"}
-- { source: "otkaabc", result: "otkaabc"}
-- { source: "simple", result: "sim"}
-- { source: "eloelo320", result: "eloelo"}
-- { source: "eloeloelo350", result: "eloeloelo"}
-- { source: "alamapsa8a1b2c", result: "alamapsa8"}
-- { source: "asfd", result: "asfd"}
-- { source: "12x", result: "12"}
-- { source: "a3b", result: "ab"}
-- { source: "123456", result: ""}
-- { source: "eloeloedadlo350", result: "eloadeloelo"}
-- { source: "12345ad6", result: "fa"}
