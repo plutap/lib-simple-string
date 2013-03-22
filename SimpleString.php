@@ -133,7 +133,9 @@ class SimpleString
         return preg_replace('/[A,a]/', '@', $string);
         //komentarz 1
         //komentarz 2
-        
+        //komentarz 3
+        //komentarz 4
+        //komentarz 5
     }
 
 }
