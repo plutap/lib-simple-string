@@ -57,4 +57,9 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
+
+    public function testUncomment()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
 }
