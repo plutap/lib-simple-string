@@ -60,7 +60,8 @@ class SimpleString
      *
      * @return string String without digits
      */
-    public static function replaceAToHello($string){
+    public static function replaceAToHello($string)
+    {
         throw new \RuntimeException('Not implemented');
     }
 
