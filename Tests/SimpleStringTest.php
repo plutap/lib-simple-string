@@ -32,10 +32,22 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
 
-    public function testAddString()
+    /**
+     * @dataProvider getAddString
+     */
+
+    public function testAddString($result, $s1, $s2)
     {
-        $this->assertEquals('Ala', SimpleString::addString('A', 'la'));
+        $this->assertEquals($result, SimpleString::addString($s1, $s2));
     }
+    public function getAddString()
+    {
+        return array(
+            array('Ala', 'A','la'),
+        );
+    }
+
+
     public function removea()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
