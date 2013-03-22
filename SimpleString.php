@@ -77,6 +77,7 @@ class SimpleString
      */
     public static function addString($string1,$string2)
     {
+        // This function connect two string into one
         return $string1 . $string2;
     }
 
