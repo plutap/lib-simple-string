@@ -29,8 +29,15 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+
     public function removea()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
+
+    public function testReplaceA($string, $result)
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
 }
