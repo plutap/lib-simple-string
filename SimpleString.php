@@ -64,6 +64,18 @@ class SimpleString
     {
         throw new \RuntimeException('Not implemented');
     }
+    
+    /**
+     * Returns replace string to Barcelona 
+     *
+     * @param string $string String to process
+     *
+     * @return string String Barcelona
+     */
+    public static function stringBarcelona($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
 
     /**
      * Returns Trollo 
