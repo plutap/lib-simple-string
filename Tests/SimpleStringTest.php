@@ -29,4 +29,20 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * @dataProvider getRemoveDigitsData
+     *
+     */
+    public function testReplaceA($string, $result)
+    {
+        $this->assertEquals($result, SimpleString::removeDigits($string));
+    }
+
+    public function getReplaceA()
+    {
+        return Yaml::parse(
+            file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'Fixtures' . DIRECTORY_SEPARATOR . 'removeDigits.yml')
+        );
+    }
+
 }
