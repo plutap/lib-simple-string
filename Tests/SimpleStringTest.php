@@ -29,19 +29,11 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         );
     }
 
-    /**
-     * @dataProvider getWordBehind
-     *
-     */
     public function testWordBehind()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
 
-    /**
-     * @dataProvider getRemoveDigitsData
-     *
-     */
     public function testPadWithDots()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');

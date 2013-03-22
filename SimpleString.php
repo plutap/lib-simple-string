@@ -66,11 +66,6 @@ class SimpleString
     public static function wordBehind($string)
     {
         throw new \RuntimeException('Not implemented');
-
-        //$result = "";
-        //for ($i = $string.ob_get_length(); $i > 0; $i++) {
-        //    $result +=
-        //}**/
     }
 
      /**
