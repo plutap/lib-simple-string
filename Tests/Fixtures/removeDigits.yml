@@ -5,4 +5,6 @@
 - { source: "eloeloelo350", result: "eloeloelo"}
 - { source: "alamapsa8a1b2c", result: "alamapsa8"}
 - { source: "asfd", result: "asfd"}
+- { source: "12x", result: "12"}
+- { source: "a3b", result: "ab"}
 - { source: "123456", result: ""}
