@@ -51,9 +51,11 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
     }
 
 
-    public function removea()
+    public function testRemoveA()
     {
-        $this->markTestIncomplete('This test has not been implemented yet.');
+        $this->assertEquals('adam', SimpleString::removea('dm'));
+        //nie działa :P
+        //no nie i koniec!
     }
 
     public function testWordBehind()
