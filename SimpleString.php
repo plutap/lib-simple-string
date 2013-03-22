@@ -67,5 +67,16 @@ class SimpleString
     {
         throw new \RuntimeException('Not implemented');
     }
+    /**
+     * Returns string without digits
+     *
+     * @param string $string String to process
+     *
+     * @return string String with @
+     */
+    public static function replaceA($string)
+    {
+        throw new \RuntimeException('Not implemented!');
+    }
 
 }
