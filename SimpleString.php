@@ -74,6 +74,20 @@ class SimpleString
     }
 
      /**
+     * Returns string padded with dots
+     *
+     * @param string $string String to process
+     *
+     * @todo Implement padWithDots().
+     *
+     * @return string String padded with dots
+     */
+    public static function padWithDots($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
+    /**
      * Returns string without digits
      *
      * @param string $string String to process

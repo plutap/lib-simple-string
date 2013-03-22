@@ -38,26 +38,17 @@ class SimpleStringTest extends \PHPUnit_Framework_TestCase
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
 
-    public function getWordBehind()
-    {
-        return Yaml::parse(
-            file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'Fixtures' . DIRECTORY_SEPARATOR . 'wordBehind.yml')
-        );
-    }
-
     /**
      * @dataProvider getRemoveDigitsData
      *
      */
-    public function testReplaceA($string, $result)
+    public function testPadWithDots()
     {
-        $this->assertEquals($result, SimpleString::removeDigits($string));
+        $this->markTestIncomplete('This test has not been implemented yet.');
     }
 
-    public function getReplaceA()
+    public function testReplaceA()
     {
-        return Yaml::parse(
-            file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'Fixtures' . DIRECTORY_SEPARATOR . 'removeDigits.yml')
-        );
+        $this->markTestIncomplete('This test has not been implemented yet.');
     }
 }
