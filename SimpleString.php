@@ -54,4 +54,15 @@ class SimpleString
         return preg_replace('/[0-9]/', '', $string);
     }
 
+    /**
+     * Returns Trollo 
+     *
+     * @param string $string String to process
+     *
+     * @return string String with trollo
+     */
+    public static function trollo($string) {
+        throw new \RuntimeException('Not implemented');
+    }
+
 }
