@@ -1,4 +1,6 @@
 - { source: "abc", result: "abc"}
 - { source: "otkaabc", result: "otkaabc"}
 - { source: "simple", result: "sim"}
+- { source: "eloelo320", result: "eloelo"}
+- { source: "eloeloelo350", result: "eloeloelo"}
 - { source: "123456", result: ""}
