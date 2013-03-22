@@ -77,7 +77,7 @@ class SimpleString
      */
     public static function addString($string1,$string2)
     {
-        throw new \RuntimeException('Not implemented');
+        return $string1 . $string2;
     }
 
     /*
